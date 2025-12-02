@@ -1,0 +1,68 @@
+# Node.js dependencies
+**/node_modules/
+
+# Frontend build output & tool caches
+**/dist/
+**/build/
+**/.next/
+**/.vite/
+**/coverage/
+**/tsconfig.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python bytecode & caches
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+openai-key.txt
+openapi-key.txt
+firebase-admin*.json
+**/storage_key/
+**/storage.env
+**/battery-env.txt
+**/battery-env.*.txt
+
+# Local databases & data dumps
+*.db
+*.sqlite
+*.sqlite3
+data/ev_charging.db
+!data/.gitkeep
+**/*.sql
+**/*.bak
+
+# Media / captures / large binaries
+**/captured/
+**/captured/**
+**/reports/
+**/reports/**
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.mp4
+**/*.avi
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Misc
+*.lock
+**/.terraform/
+**/tmp/
+**/temp/
